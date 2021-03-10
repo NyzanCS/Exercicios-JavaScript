@@ -1,0 +1,31 @@
+body{
+    background: rgb(73, 37, 102);
+}
+
+header{
+    color: white;
+    font: bold 30px arial;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+#selc{
+    width: 150px;
+}
+
+#slc{
+    background: white;
+    border-radius: 10px;
+    font: normal 15px arial;
+    margin: auto;
+    width: 30%;
+    box-shadow: 2px 2px 2px 1px rgb(71, 71, 71);
+    padding: 10px 1px 10px 20px;
+}
+
+footer{
+    color: white;
+    font: normal 15px arial;
+    text-align: center;
+    margin-top: 30px;
+}

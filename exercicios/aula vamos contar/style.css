@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(117, 66, 146);
+    text-align: center;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font: bold 40px arial;
+    padding-top: 30px;
+}
+
+section{
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+    text-align: left;
+    padding: 20px 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 600px;
+    font: normal 16px arial;
+}
+
+
+section input{
+    margin-bottom: 15px;
+    padding: 2px;
+}
+
+section ul li{
+    margin-bottom: 12px;
+}
+
+#sec2{
+    padding: 10px 30px;
+    width: 300px;
+    margin: 0;
+}
+
+#botao{
+    font-size: 13px;
+    padding: 5px;
+}
+
+#sections{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+footer{
+    color: rgb(255, 255, 255);
+    padding-top: 50px;
+}

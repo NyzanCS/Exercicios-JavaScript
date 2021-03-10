@@ -1,0 +1,29 @@
+body{
+    background: rgb(103, 202, 248);
+    font: normal 15px Arial;
+}
+
+header{
+    color: white;
+    text-align: center;     
+}
+
+section{
+    background: white; 
+    border-radius: 10px; /*Deixou as bordas arredondadas */ 
+    padding: 15px;       /* Dar espaço dentro dessa section */ 
+    width: 500px;       /* Largura de 500px */
+    height: 270px;      /* Altura de 500px */
+    margin: auto;     /* Centraliza no meio da tela */ 
+    box-shadow: 5px 5px 10px rgb(53, 53, 53) ; /* Ordem dos px escrito, 1º deslocamento lateral, 2º deslocamento vertical e 3º espalhamento. */
+}
+
+div{
+    text-align: center;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

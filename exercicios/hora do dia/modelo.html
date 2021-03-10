@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora do Dia </title>
+    <link rel="stylesheet" href="estilo.css"> <!-- Quando escrevemos link ele sugere css como nesse caso, e se clicarmos, ele ja monta a estrutura-->
+                        <!-- Ainda nesse caso acima, dentro do href criamos aqui mesmo uma pagina de estilo.css, e quando seguramos o ctrl e clicamos nela, o proprio vscode percebe que não existe e sugere que ele mesmo crie para nós-->
+</head>
+
+<body onload="carregar()">
+    <header>
+        <h1>Hora do Dia</h1>
+    </header>
+    <section>
+        <div id="msg">
+            Aqui vai aparecer a mensagem
+      </div>
+      <div id="foto">
+            <img id="imagem" src="fotomanha.png" alt="Foto manhã">
+      </div>
+    </section>
+    <footer>
+        <p>&copy; CursoemVideo</p>
+    </footer>
+
+    <script src="script.js"></script>  <!-- Como no exemplo acima, criamos uma tag script src, para linkar c um arquivo js, e quando escrevemos o nome do arquivo, caso ele não existe, é so segurar o ctrl e clicar nele que o próprio js cria para nós-->
+</body>
+</html>
+
